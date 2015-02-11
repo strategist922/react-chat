@@ -1,0 +1,30 @@
+{
+  "name": "react-chat",
+  "version": "0.1.0",
+  "description": "An example of a simple web chat client built in ReactJS",
+  "author": "TheStoneFox",
+
+  "scripts": {
+    "start": "node server.js"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thestonefox/react-chat"
+  },
+
+  "bugs": {
+    "url": "https://github.com/thestonefox/react-chat/issues"
+  },
+
+  "devDependencies": {
+    "jsx-loader": "^0.12.2",
+    "react-hot-loader": "^1.1.1",
+    "webpack": "1.4.15",
+    "webpack-dev-server": "1.6.4"
+  },
+
+  "dependencies": {
+    "react": "^0.12.0"
+  }
+}
