@@ -3,6 +3,8 @@ var React, ChatPanel, TestUtils, path, chatPanelInstance;
 
 path = '../../../scripts/components/';
 jest.dontMock( path + 'chat_panel');
+jest.dontMock( path + 'chat_history');
+jest.dontMock( path + 'chat_message');
 
 describe('ChatPanel', () => {
   beforeEach(() => {

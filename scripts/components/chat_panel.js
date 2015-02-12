@@ -1,18 +1,16 @@
 'use strict';
-var React, ChatPanel;
+var React, ChatPanel, ChatHistory, ChatMessage;
 
 React = require('react');
+ChatHistory = require('./chat_history');
+ChatMessage = require('./chat_message');
 
 ChatPanel = React.createClass({
   render() {
     return (
       <div className="chat-panel">
-        <div className="chat-history">
-        </div>
-        <div className="chat-message">
-          <textarea />
-          <button>Send</button>
-        </div>
+        <ChatHistory />
+        <ChatMessage />
       </div>
     );
   }
