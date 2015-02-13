@@ -24,13 +24,21 @@
     "webpack-dev-server": "1.6.4"
   },
   "dependencies": {
+    "node-translate": "^0.0.4",
     "react": "^0.12.0"
   },
   "jest": {
     "rootDir": "./",
     "scriptPreprocessor": "<rootDir>/scripts/support/preprocessor.js",
-    "testFileExtensions": ["es6", "js"],
-    "moduleFileExtensions": ["js", "json", "es6"],
+    "testFileExtensions": [
+      "es6",
+      "js"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "es6"
+    ],
     "unmockedModulePathPatterns": [
       "<rootDir>/node_modules/react"
     ]

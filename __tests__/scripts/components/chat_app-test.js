@@ -9,7 +9,7 @@ describe('ChatApp', () => {
     React = require('react/addons');
     TestUtils = React.addons.TestUtils;
     ChatApp = require( path + 'chat_app');
-    chatAppInstance = TestUtils.renderIntoDocument(<ChatApp />);
+    chatAppInstance = TestUtils.renderIntoDocument(<ChatApp title="Chat App"/>);
   });
 
   afterEach(() => {

@@ -8,7 +8,7 @@ ChatMessage = React.createClass({
     return (
       <div className="chat-message">
         <textarea />
-        <button>Send</button>
+        <button>{this.props.buttonLabel}</button>
       </div>
     );
   }

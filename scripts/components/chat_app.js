@@ -8,7 +8,7 @@ ChatApp = React.createClass({
   render() {
     return (
       <div className="chat-app">
-        <h1>Chat App</h1>
+        <h1>{this.props.title}</h1>
         <ChatPanel />
       </div>
     );

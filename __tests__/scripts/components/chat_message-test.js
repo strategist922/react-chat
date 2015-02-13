@@ -9,7 +9,7 @@ describe('ChatMessage', () => {
     React = require('react/addons');
     TestUtils = React.addons.TestUtils;
     ChatMessage = require( path + 'chat_message');
-    chatMessageInstance = TestUtils.renderIntoDocument(<ChatMessage />);
+    chatMessageInstance = TestUtils.renderIntoDocument(<ChatMessage buttonLabel="Send"/>);
   });
 
   afterEach(() => {
